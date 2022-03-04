@@ -45,6 +45,49 @@ The site owner's primary goals of the website are:
 
 #### Color Scheme 
 
+The color scheme used is loosely based on the colors used in the marvel logo:
+
+- A slight variation to red #CF2E2E.
+- Regular black #000000.
+- A slightly milder white #FFFFFA.
+
+#### Typography
+
+The primary font used is Marvel with a fallback of sans serif.
+
+#### Layout
+
+The website is layed out in the following way:
+
+1. User arrives on the home page. 
+> The user can clearly see about what the website is about.
+2. The user is able to decide whether he/she wants to login/signup or start shopping immediatly.
+> Logging in takes user to all products page, my profile becomes available. A user can see their order history here. Writing reviews on products becomes available as well.
+3. When a user is adding products to their cart a total is displayed on the bottom of the shopping cart icon.
+
+#### Checkout layout
+
+For registered users:
+
+1. A overview is given for all products that are about to be ordered.
+2. All fields for personal information are automatically take from the profile page.
+3. After user has checked and confirmed that all information filled out is correct an order summary is shown.
+> This contains a thank you message and a notification that an email has been sent to the email address.
+
+For unregistered users:
+
+1. A overview is given for all products that are about to be ordered.
+2. All fields for personal information are blank and need to be filled in manually.
+3. After user has checked and confirmed that all information filled out is correct an order summary is shown.
+> This contains a thank you message and a notification that an email has been sent to the email address.
+
+#### Profile page layout
+
+It clearly shows the users personal information and gives them the option to edit their profile or delete their profile.
+
+It also contains a section of their order history.
+
+#### Admin features
 
 ## Features 
 
