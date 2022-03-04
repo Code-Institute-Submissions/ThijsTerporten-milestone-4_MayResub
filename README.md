@@ -87,9 +87,9 @@ It clearly shows the users personal information and gives them the option to edi
 
 It also contains a section of their order history.
 
-#### Admin features
-
 ## Features 
+
+#### Admin features
 
 
 
@@ -111,7 +111,6 @@ It also contains a section of their order history.
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 
