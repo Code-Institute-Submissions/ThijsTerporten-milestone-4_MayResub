@@ -11,6 +11,9 @@ body {
     font-family: 'Marvel', sans-serif;
 }
 
+hr {
+    background-color: #FFFFFA;
+}
 .overlay {
     background-color: #000000;
     height: 100%;
