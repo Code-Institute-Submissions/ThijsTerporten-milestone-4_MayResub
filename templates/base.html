@@ -108,6 +108,7 @@
         </div>
       </div>
     </header>
+
     {% if messages %}
         <div class="message-container">
 
@@ -120,6 +121,34 @@
     {% block content %}
     {% endblock %}
 
+    <!-- footer with icons -->
+  <footer class="footer glass">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3">
+          <a href="">
+            <i class="fa-brands fa-facebook fa-lg"></i>         
+           </a>
+        </div>
+        <div class="col-3">
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="">
+            <div><i class="fa-solid fa-envelope"></i></div>
+            </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
     {% block postloadjs %}
     {% endblock %}
 
