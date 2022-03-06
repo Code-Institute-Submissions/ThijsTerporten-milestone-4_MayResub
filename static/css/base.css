@@ -11,6 +11,16 @@ body {
     font-family: 'Marvel', sans-serif;
 }
 
+.overlay {
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+}
+
 .padding-nav {
     padding: 0;
 }
