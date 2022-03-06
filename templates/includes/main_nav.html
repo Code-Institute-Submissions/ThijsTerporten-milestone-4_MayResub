@@ -17,9 +17,9 @@
                 Comics
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="comic-link">
-                <a href="" class="dropdown-item">Marvel</a>
-                <a href="" class="dropdown-item">DC</a>
-                <a href="" class="dropdown-item">All Comics</a>
+                <a href="{% url 'products' %}?category=marvel" class="dropdown-item">Marvel</a>
+                <a href="{% url 'products' %}?category=dc" class="dropdown-item">DC</a>
+                <a href="{% url 'products' %}?category=marvel,dc" class="dropdown-item">All Comics</a>
             </div>
         </li>
 
