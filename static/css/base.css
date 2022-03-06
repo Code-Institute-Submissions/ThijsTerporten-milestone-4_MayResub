@@ -9,3 +9,81 @@ body {
     background-color: #000000;
     color: #FFFFFA;
     font-family: 'Marvel', sans-serif;}
+
+.text-black {
+    color: #000000;
+}
+
+.text-white {
+    color: #FFFFFA;
+}
+
+.logo-font {
+    font-weight: bold;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+/* Shop now button hover */
+.shop-now-button {
+    text-align: center;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .shop-now-button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .shop-now-button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .shop-now-button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+/* Glassmorphism class */
+.glass {
+    background-color: rgba(255,255,255,0.4);
+    border: 0.1rem solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(2rem);
+    box-shadow: 0 1rem 10rem rgba(0,0,0,0.4);  /* x y blur color */
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+  
+  /* fixed top navbar only on medium and up */
+  @media (min-width: 992px) {
+      .fixed-top-desktop-only {
+          position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+          z-index: 1030;
+      }
+  
+      .header-container {
+          padding-top: 164px;
+      }
+  }
