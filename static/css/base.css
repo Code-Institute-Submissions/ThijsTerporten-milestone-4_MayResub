@@ -8,7 +8,16 @@ body {
     height: calc(100vh - 164px);
     background-color: #000000;
     color: #FFFFFA;
-    font-family: 'Marvel', sans-serif;}
+    font-family: 'Marvel', sans-serif;
+}
+
+.padding-nav {
+    padding: 0;
+}
+
+.products-nav {
+    font-size: 1.5rem;
+}
 
 .text-black {
     color: #000000;
