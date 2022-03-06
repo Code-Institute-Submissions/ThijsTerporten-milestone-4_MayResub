@@ -28,10 +28,10 @@
                 Fantasy Novels
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="novel-link">
-                <a href="" class="dropdown-item">Game of Thrones</a>
-                <a href="" class="dropdown-item">Harry Potter</a>
-                <a href="" class="dropdown-item">The Witcher</a>
-                <a href="" class="dropdown-item">All Novels</a>
+                <a href="{% url 'products' %}?category=game_of_thrones" class="dropdown-item">Game of Thrones</a>
+                <a href="{% url 'products' %}?category=harry_potter" class="dropdown-item">Harry Potter</a>
+                <a href="{% url 'products' %}?category=the_witcher" class="dropdown-item">The Witcher</a>
+                <a href="{% url 'products' %}?category=game_of_thrones,harry_potter,the_witcher" class="dropdown-item">All Novels</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
