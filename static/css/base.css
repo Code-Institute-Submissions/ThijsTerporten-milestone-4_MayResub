@@ -93,6 +93,10 @@ hr {
 .card-image {
     max-width: fit-content;
 }
+
+.category-icon {
+    color: #FFFFFA;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
