@@ -1,0 +1,66 @@
+[
+    {
+        "pk":1,
+        "model": "products.category",
+        "fields": {
+            "name": "marvel",
+            "friendly_name": "Marvel"
+        }
+    },
+    {
+        "pk":2,
+        "model": "products.category",
+        "fields": {
+            "name": "dc",
+            "friendly_name": "DC"
+        } 
+    },
+    {
+        "pk":3,
+        "model": "products.category",
+        "fields": {
+            "name": "game_of_thrones",
+            "friendly_name": "Game Of Thrones"
+        }
+    },
+    {
+        "pk":4,
+        "model": "products.category",
+        "fields": {
+            "name": "the_witcher",
+            "friendly_name": "The Witcher"
+        }
+    },
+    {
+        "pk":5,
+        "model": "products.category",
+        "fields": {
+            "name": "harry_potter",
+            "friendly_name": "Harry Potter"
+        }
+    },
+    {
+        "pk":6,
+        "model": "products.category",
+        "fields": {
+            "name": "new_arrivals",
+            "friendly_name": "New Arrivals"
+        }
+    },
+    {
+        "pk":7,
+        "model": "products.category",
+        "fields": {
+            "name": "deals",
+            "friendly_name": "Deals"
+        }
+    },
+    {
+        "pk":8,
+        "model": "products.category",
+        "fields": {
+            "name": "clearance",
+            "friendly_name": "Clearance"
+        }
+    }
+]

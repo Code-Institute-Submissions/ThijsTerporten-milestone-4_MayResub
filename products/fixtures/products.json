@@ -1,0 +1,16 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Hulk nr1. 2018",
+            "description": "Hulk nr1. released in 2018.The gamma-powered creative team of Donny Cates and Ryan Ottley take on the Hulk -- and the results are sure to be incredible! The Hulk's uncontrollable rage has reached an all-new level -- and nobody, including the Avengers, is prepared to handle it. But is it really the Hulk that people should fear...or is there another factor at play? Bruce Banner thinks he finally has total control of his emerald alter ego -- and in fact, he might. But variables can happen at any time...and this one is something that even his brilliant mind couldn't have imagined. Now, as Bruce hurtles deep into outer space on a dangerous quest, he's about to find out that the Hulk isn't alone! Look to the stars as the next exciting era of HULK begins!",
+            "price": 12.00,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/61to2-3nNBL.jpg",
+            "image": "hulk1.jpg"
+        }
+    }
+]
