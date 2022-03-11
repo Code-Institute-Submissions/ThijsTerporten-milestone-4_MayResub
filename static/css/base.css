@@ -91,6 +91,10 @@ hr {
     right: 10px;
 }
 
+.btn-outline {
+    border: 1px solid #FFFFFA;
+}
+
 /* Category badge hover */
 
 a.category-badge {
