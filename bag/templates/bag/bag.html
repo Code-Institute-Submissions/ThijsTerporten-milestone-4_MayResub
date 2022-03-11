@@ -23,8 +23,40 @@
     <div class="row">
         <div class="col">
             {% if bag_items %}
-                <div class="table-responsive rounded">
-                    {{ bag_items }}
+                <div class="table-responsive rounded text-white">
+                    <table class="table table-sm table-borderless">
+                        <thead class="text-white">
+                            <tr>
+                                <th scope="col">Product</th>
+                                <th scope="col"></th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Qty</th>
+                                <th scope="col">Subtotal</th>
+                            </tr>
+                        </thead>
+
+                        {% for item in bag_items %}
+                            <tr>
+                                <td class="p-3 w-25">
+                                    <img src="{{ item.product.image.url }}" alt="product image" class="img-fluid rounded">
+                                </td>
+                                <td class="py-3">
+                                    <p class="my-0 text-white"><strong>{{ item.product.name }}</strong></p>
+                                    <p class="my-0 text-white"><small>SKU {{ item.product.sku|upper }}</small></p>
+                                </td>
+                                <td class="py-3">
+                                    <p class="my-0 text-white">€{{ item.product.price }}</p>
+                                </td>
+                                <td class="py-3">
+                                    <p class="my-0 text-white">{{ item.quantity }}</p>
+                                </td>
+                                <td class="py-3">
+                                    <p class="my-0 text-white">€{{ item.product.price }}</p>
+                                </td>
+                            </tr>
+
+                        {% endfor %}
+                    </table>
                 </div>
             {% else %}
             <p class="lead mb-5">Your bag is empty</p>
