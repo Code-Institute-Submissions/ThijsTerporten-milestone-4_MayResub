@@ -47,7 +47,7 @@
   <title>Comix {% block extra_title %}{% endblock %}</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <header class="container-fluid fixed-top">
     <div class="row pt-lg-2 d-none d-lg-flex glass" id="topnav">
       <!-- Logo link -->
@@ -147,27 +147,29 @@
   {% endblock %}
 
   <!-- footer with icons -->
-  <footer class="footer fixed-bottom glass">
+  <footer class="footer mt-auto glass">
     <div class="container-fluid">
       <div class="row">
         <div class="col-3">
-          <a href="">
-            <i class="fa-brands fa-facebook fa-lg"></i>
+          <p class="text-white text-center">Find us on our social channels</p>
+          <a href="" class="d-flex justify-content-center footer-link">
+            <i class="fa-brands fa-facebook fa-lg text-white"></i>
           </a>
         </div>
         <div class="col-3">
-          <a href="">
-            <i class="fa-brands fa-instagram"></i>
+          <a href="" class="">
+            <i class="fa-brands fa-instagram text-white"></i>
           </a>
         </div>
         <div class="col-3">
-          <a href="">
-            <i class="fa-brands fa-twitter"></i>
+          <a href="" class="">
+            <i class="fa-brands fa-twitter text-white"></i>
           </a>
         </div>
         <div class="col-3">
-          <a href="">
-            <div><i class="fa-solid fa-envelope"></i></div>
+          <p class="text-white text-center">Contact us!</p>
+          <a href="" class="d-flex justify-content-center">
+            <i class="fa-solid fa-envelope text-white"></i>
           </a>
         </div>
 

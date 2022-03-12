@@ -108,9 +108,9 @@ a.category-badge > span.badge:hover {
 
 /* Glassmorphism class */
 .glass {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.3);
     border: 0.1rem solid rgba(255,255,255,0.3);
-    backdrop-filter: blur(2rem);
+    backdrop-filter: blur(1rem);
     box-shadow: 0 1rem 10rem rgba(0,0,0,0.4);  /* x y blur color */
 }
 
@@ -123,11 +123,11 @@ a.category-badge > span.badge:hover {
 }
 
 .btt-button {
-    height: 40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
     position: fixed;
-    bottom: 30px;
-    right: -10px;
+    bottom: 100px;
+    right: 10px;
 }
 
 
@@ -140,6 +140,7 @@ a.category-badge > span.badge:hover {
 .btt-link:hover {
     color: #CF2E2E;
 }
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
