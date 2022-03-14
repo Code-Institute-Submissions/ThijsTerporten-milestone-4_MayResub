@@ -71,8 +71,8 @@
                                             </div>
                                         </div>
                                     </form>
-                                    <a href="" class="update-link text-info">Update</a>
-                                    <a href="" class="remove-item text-danger float-right" id="remove_{{ item.item_id }}">Remove</a>
+                                    <a class="update-link text-info">Update</a>
+                                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}">Remove</a>
                                 </td>
                                 <td class="py-3">
                                     <p class="my-0 text-white">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
@@ -144,9 +144,9 @@
         };
 
         $.post(url, data)
-        .done(function() {
-            location.reload();
-        });
+            .done(function() {
+                location.reload();
+            });
     });
 </script>
 {% endblock %}
