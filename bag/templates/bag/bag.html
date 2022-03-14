@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load bag_tools %}
 
 {% block page_header %}
 <div class="container header-container">
@@ -74,7 +75,7 @@
                                     <a href="" class="remove-item text-danger float-right" id="remove_{{ item.item_id }}">Remove</a>
                                 </td>
                                 <td class="py-3">
-                                    <p class="my-0 text-white">€{{ item.product.price }}</p>
+                                    <p class="my-0 text-white">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
                                 </td>
                             </tr>
                             {% endfor %}
@@ -127,23 +128,25 @@
 {% include 'products/includes/quantity_input_script.html' %}
 
 <script type="text/javascript">
-    // Update Quantity
-    $('.update-link').click(function(e) {
+    // Update quantity on click
+    $('.update-link').click(function (e) {
         var form = $(this).prev('.update-form');
         form.submit();
-    })
+    });
 
-    // Remove item
-    $('remove-item').click(function(e) {
+    // Remove item and reload on click
+    $('.remove-item').click(function (e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         var url = `/bag/remove/${itemId}/`;
-        var data = {'csrfmiddlewaretoken': csrfToken};
+        var data = {
+            'csrfmiddlewaretoken': csrfToken
+        };
 
         $.post(url, data)
-         .done(function() {
+        .done(function() {
             location.reload();
         });
-    })
+    });
 </script>
 {% endblock %}
