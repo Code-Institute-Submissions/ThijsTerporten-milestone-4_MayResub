@@ -40,10 +40,6 @@ hr {
     color: #000000;
 }
 
-/* .text-white {
-    color: #FFFFFA;
-} */
-
 .logo-font {
     font-weight: bold;
 }
@@ -137,10 +133,18 @@ a.category-badge > span.badge:hover {
     font-size: 30px;
 }
 
-.btt-link:hover {
+.btt-link:hover,
+.nav-link:hover {
     color: #CF2E2E;
 }
 
+.nav-link:focus {
+    color: #CF2E2E;
+}
+
+.text-info {
+    color: #CF2E2E!important;
+}
 /* Toasts */
 .message-container {
     position: fixed;
