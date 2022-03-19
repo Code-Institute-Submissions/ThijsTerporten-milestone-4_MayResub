@@ -235,6 +235,35 @@ a.category-badge > span.badge:hover {
 .allauth-form-inner-content a:hover {
     color: #CF2E2E;
 }
+
+/* Custom widget styling */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+    border-color: #CF2E2E;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #CF2E2E;
+    border-color: #CF2E2E;
+    border-radius: 0;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
