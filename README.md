@@ -65,7 +65,10 @@ The site owner's primary goals of the website are:
 
 ### Design
 
-This project was largely based on the design of the walkthrough project Boutique Ado
+This project was largely based on the design of the walkthrough project Boutique Ado thus almost all of the styling is a slight variation on the styling done 
+in the walkthrough project.
+
+
 #### Color Scheme 
 
 The color scheme used is loosely based on the colors used in the marvel logo:
@@ -73,10 +76,11 @@ The color scheme used is loosely based on the colors used in the marvel logo:
 - A slight variation to red #CF2E2E.
 - Regular black #000000.
 - A slightly milder white #FFFFFA.
+Link to full color scheme [here](readme/images/ms4-colors.png)
 
 #### Typography
 
-The primary font used is Marvel with a fallback of sans serif.
+The primary font used is Marvel with a fallback of sans serif. This font was used as it overall matched the feel off typography in comic books.
 
 #### Layout
 
@@ -120,14 +124,21 @@ All orders can be deleted as well by admins in the panel by typing /
 
 ### Existing Features
 
+- Full CRUD functionality for users
+> Reviews can be added, deleted edited.
+> Items can be added to cart deleted and cart can be updated.
+
+- The admin can use full CRUD on products.
+> Edit delete and update products.
 
 
 ### Features Left to Implement
 
+This project is far from done and I have only started to learn Django.
+In future releases:
 
 
 ## Testing 
-
 
 
 
@@ -283,10 +294,42 @@ If you wish to clone a copy of my project, feel free. You will need to:
 
 ## Credits 
 
+- Detailed deployment section was taken from [this](https://github.com/iainm342/milestone-4/blob/master/README.md) repository.
+- Reviews are based upon [this](https://github.com/iainm342/milestone-4) Repo
+- All images used belong to their respective parties. As of now this is Marvel and DC.
 
 
 ### Content 
 
+## **TECHNOLOGY USED**
+
+### LANGUAGES AND FRAMEWORKS
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - used to create the site structure.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to create the styling throughout the site.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the addition/deletion of ingredients and methods buttons
+- [jQuery](https://jquery.com/) - this was used to activate the Materialize functionality.
+- [Python](https://www.python.org/) - used to write the logic that operates the site.
+- [Django](https://www.djangoproject.com/) - web framework used to allow a modular site to be created.
+- [Font-Awesome](https://fontawesome.com/icons?d=gallery) - icons were taken from this site for the forms, header, footer and social buttons.
+- [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here.
+- [Heroku](https://www.heroku.com/home) - used for hosting website.
+- [Bootstrap](https://getbootstrap.com/) - used for responsive grid framework, navigation and buttons.
+- [Stripe](https://stripe.com/gb) - ecommerce payment system.
+
+### TOOLS
+
+- [Git](https://git-scm.com/) - version control and recording of all changes to site during development process.
+- [Visual Studio Code](https://code.visualstudio.com/) - IDE used for code editing.
+- [Figma](https://figma.com/) - wireframing
+- [Google Fonts](https://fonts.google.com/) - used to select font families.
+- [W3C Validator](https://validator.w3.org/) - used to test my HTML to ensure there were no errors.
+- [W3C Validator CSS](https://jigsaw.w3.org/css-validator/) - used to test my CSS to ensure there were no errors.
+- [JSHint](https://https://jshint.com/) - used to test my JS to ensure there were no errors.
+- [PEP8 Online](http://pep8online.com/) - used to check my Python was PEP8 compliant.
+- [Chrome Developer](https://developers.google.com/web/tools/chrome-devtools) - used to test responsiveness of site throughout the developmnent process and also performance using Lighthouse.
+- [Free Formatter](https://freeformatter.com/html-formatter.html#ad-output) - html formatter to help keep things tidy!
+- [AWS](http://aws.amazon.com/) - used the S3 and IAM modules for storage and user access.
 
 
 ### Media
