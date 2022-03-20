@@ -298,3 +298,13 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 }
+
+/* Support Queries */
+/* Does the browser understand this? */
+@supports(backdrop-filter: blur(1rem)){
+    .glass {
+        background-color: rgba(255,255,255,0.3);
+        border: 0.1rem solid rgba(255,255,255,0.3);
+        box-shadow: 0 1rem 10rem rgba(0,0,0,0.4);  /* x y blur color */
+    }
+}
