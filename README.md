@@ -173,10 +173,11 @@ In future releases:
 
 All Testing was done during coding.
 
-- 
+- After writing each block of code I would check whether no major errors were given. 
 
 ### Validator Testing 
 
+Ran out of time as off now.
 
 ### Unfixed Bugs
 
