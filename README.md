@@ -1,6 +1,42 @@
 # Comix
 
-Comix is a e-commerce website for fantasy novels and comic books. Users can register to the website for discounts, leave reviews, 
+![site display](readme/images/showcase.png)
+Comix is a e-commerce website for fantasy novels and comic books. Users can register to the website for discounts, leave reviews and purchase their comics or books.
+This is the 4th and final project created for code institute Full stack developer program.
+
+A live version of the website can be found [here](https://thijsterporten-milestone-4.herokuapp.com/)
+
+**For testing purposes, please use the following credit card details:**
+
+`Card number:` 4242 4242 4242 4242
+`Exp:` any date in the future using MM/YY format
+`CSV:` any 3 numbers, ie 424
+
+## **CONTENTS**
+
+- [UX](#ux)
+  - [Project Goals](#project-goals)
+  - [User Stories](#user-stories)
+  - [Design Process](#design-process)
+    - [Fonts](#fonts)
+    - [Colours](#colours)
+    - [Wireframes](#wireframes)
+- [Technology Used](#technology-used)
+  - [Languages and Frameworks](#languages-and-frameworks)
+  - [API's](#API'S)
+  - [Tools](#tools)
+- [Features](#features)
+- [Database Design](#database-design)
+- [Testing](#testing)
+- [Deployment](#deployment)
+  - [Hosting](#hosting)
+  - [AWS](#aws)
+  - [Local Hosting](#local-hosting)
+- [Credits](#credits)
+  - [Images](#images)
+  - [Image editing](#image-editing)
+  - [Coding Ideas](#coding-ideas)
+- [Acknowledgements](#acknowledgements)
 
 ## User Experience(UX)
 
