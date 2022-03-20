@@ -68,6 +68,13 @@ The site owner's primary goals of the website are:
 This project was largely based on the design of the walkthrough project Boutique Ado thus almost all of the styling is a slight variation on the styling done 
 in the walkthrough project.
 
+### Wireframes
+
+Wireframes for this project can be found here:
+1. [Checkout](readme/images/wireframes.pdf)
+2. [Homepage](readme/images/wireframes2.pdf)
+
+The end project is quite different in terms of styling even though most of it remained the same in terms of layout.
 
 #### Color Scheme 
 
@@ -142,12 +149,31 @@ In future releases:
 - I would like to add a blog about new books or discussing a certain book.
 - Clean up glassmorphism styling. Even though a cool idea it creates bugs.
 - Implement TestCases.
-- 
+- A more interactive homepage showcasing blogposts, new comics etc. 
 
+## **TECHNOLOGY USED**
+
+### LANGUAGES AND FRAMEWORKS
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - used to create the site structure.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to create the styling throughout the site.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the addition/deletion of ingredients and methods buttons
+- [jQuery](https://jquery.com/) - this was used to activate the Materialize functionality.
+- [Python](https://www.python.org/) - used to write the logic that operates the site.
+- [Django](https://www.djangoproject.com/) - web framework used to allow a modular site to be created.
+- [Font-Awesome](https://fontawesome.com/icons?d=gallery) - icons were taken from this site for the forms, header, footer and social buttons.
+- [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here.
+- [Heroku](https://www.heroku.com/home) - used for hosting website.
+- [Bootstrap](https://getbootstrap.com/) - used for responsive grid framework, navigation and buttons.
+- [Stripe](https://stripe.com/gb) - ecommerce payment system.
+
+### TOOLS
 
 ## Testing 
 
+All Testing was done during coding.
 
+- 
 
 ### Validator Testing 
 
@@ -260,7 +286,7 @@ In order for the static css, js and media files to be stored and useable with He
 
 - [Back to Contents](#contents)
 
-### <ins>LOCAL HOSTING</ins>
+### LOCAL HOSTING
 
 If you wish to clone a copy of my project, feel free. You will need to:
 
@@ -308,23 +334,6 @@ If you wish to clone a copy of my project, feel free. You will need to:
 
 ### Content 
 
-## **TECHNOLOGY USED**
-
-### LANGUAGES AND FRAMEWORKS
-
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - used to create the site structure.
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to create the styling throughout the site.
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the addition/deletion of ingredients and methods buttons
-- [jQuery](https://jquery.com/) - this was used to activate the Materialize functionality.
-- [Python](https://www.python.org/) - used to write the logic that operates the site.
-- [Django](https://www.djangoproject.com/) - web framework used to allow a modular site to be created.
-- [Font-Awesome](https://fontawesome.com/icons?d=gallery) - icons were taken from this site for the forms, header, footer and social buttons.
-- [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here.
-- [Heroku](https://www.heroku.com/home) - used for hosting website.
-- [Bootstrap](https://getbootstrap.com/) - used for responsive grid framework, navigation and buttons.
-- [Stripe](https://stripe.com/gb) - ecommerce payment system.
-
-### TOOLS
 
 - [Git](https://git-scm.com/) - version control and recording of all changes to site during development process.
 - [Visual Studio Code](https://code.visualstudio.com/) - IDE used for code editing.
@@ -340,4 +349,6 @@ If you wish to clone a copy of my project, feel free. You will need to:
 
 
 ### Media
+
+All images were taken from Amazon by typing in the comic or book name and saving the image.
 
