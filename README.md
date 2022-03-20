@@ -352,3 +352,8 @@ If you wish to clone a copy of my project, feel free. You will need to:
 
 All images were taken from Amazon by typing in the comic or book name and saving the image.
 
+# Acknowledgements
+
+Thank you to the following people:
+- My mentor Antonija Simic for her time and guidance in helping me in this project.
+
