@@ -130,12 +130,19 @@ All orders can be deleted as well by admins in the panel by typing /
 
 - The admin can use full CRUD on products.
 > Edit delete and update products.
+- It is a fully functioning E-commerce store.
+> Checkout is possible when using 424242 till the card input field is full.
+- Users can register and leave reviews, save their shipping details, store order history and view order history.
 
 
 ### Features Left to Implement
 
 This project is far from done and I have only started to learn Django.
 In future releases:
+- I would like to add a blog about new books or discussing a certain book.
+- Clean up glassmorphism styling. Even though a cool idea it creates bugs.
+- Implement TestCases.
+- 
 
 
 ## Testing 
