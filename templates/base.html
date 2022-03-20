@@ -79,8 +79,8 @@
       <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
         <ul class="list-inline list-unstyled text-center text-lg-right my-o">
           <li class="list-inline-item dropdown">
-            <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
+            <a href="#" class="text-black nav-link" id="user-options" data-toggle="modal" aria-haspopup="true"
+              aria-expanded="false" data-target="#exampleModalCenter">
               <div class="text-center">
                 <div><i class="fas fa-user fa-lg"></i></div>
                 <p class="my-0">My Account</p>
@@ -191,6 +191,45 @@
       </div>
     </div>
   </footer>
+  <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center">
+          <div><i class="fas fa-user fa-lg"></i></div>
+          <p class="my-0">My Account</p>
+        </div>
+      </a>
+      <div class="border-0" aria-labelledby="user-options">
+        {% if request.user.is_authenticated %}
+        {% if request.user.is_superuser %}
+        <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+        {% endif %}
+        <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+        <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+        {% else %}
+        <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+        <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+        {% endif %}
+      </div>
+    </li>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
   {% block postloadjs %}
   <script type="text/javascript">
     $('.toast').toast('show');
