@@ -191,9 +191,9 @@ Deployment of the site was achieved by following the steps below:
 - Once site was deployed, clicked "View" to launch the app and be able to view it within the browser.
 - Heroku will now update everytime you push to GitHub.
 
-[Back to Contents](#contents)
 
-### <ins>AWS</ins>
+
+### AWS
 
 In order for the static css, js and media files to be stored and useable with Heroku, you need to set up an AWS account.
 
@@ -248,7 +248,7 @@ If you wish to clone a copy of my project, feel free. You will need to:
 
 - Navigate to my GitHub [repository](https://github.com/ThijsTerporten/milestone-4).
 - Click the `Code` button next to the Green Gitpod button.
-- Either, download the zip file or clone the repo using `gh repo clone iainm342/milestone-4` in the terminal.
+- Either, download the zip file or clone the repo using `gh repo clone ThijsTerporten/milestone-4` in the terminal.
 - Install the modules listed in the requirements.txt file using `python -m pip -r requirements.txt` in the terminal.
 - Install the JSON files using `python manage.py loaddata categories`, `python manage.py loaddata counties` and `python manage.py loaddata products` in this order as "products" relies on the previous two.
 - Create a SuperUser by using `python manage.py createsuperuser` and following the onscreen instructions.
