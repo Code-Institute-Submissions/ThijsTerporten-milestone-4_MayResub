@@ -171,9 +171,30 @@ In future releases:
 
 ## Testing 
 
-All Testing was done during coding.
+Testing has been done in the following ways:
+1. During coding.
 
-- After writing each block of code I would check whether no major errors were given. 
+- While developing each individual application I would test everything would work as intended.
+- Chrome dev tools was used to check wether the site behaves in a responsive manner.
+
+2. UX Testing.
+
+During each stage of development I would check if my application still holds up with the user stories stated in the UX section of the readme.
+
+Owner UX stories:
+
+- As a owner of the application I would like to provide my users with an incentive to register to the website.
+> As of right now it is kind of an empty application. In future versions of this website I would like to give the owner the abillity to create custom banners with messages for their customers.
+- As a owner of the application I would like to let my users have a nice intuitive process throughout the app.
+> All elements on the website have a nice visual feedback when hovering over them and all user CRUD interactions when adding products to their bag have nice visual feedback in the form of modals.
+- As a owner of the application I would like my products to be displayed in an attractive manner.
+> Each individual product item has a large image clearly stating the price, category and large image showcasing the item.
+- As a owner of the application I have to be able to manage all my products.
+> Owner of the website has full CRUD functionallity on the entire website.
+- As a owner of the application I would like to be able to recieve customer feedback.
+> As of right now user feedback in the form of a contact form is not implemented yet.
+- As a owner I would like to be able to remove reviews that aren't related to the product.
+> During testing I found out that every user was able to delete other reviews. This should only be reserved for website owners. 
 
 ### Validator Testing 
 
