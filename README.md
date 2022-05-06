@@ -196,6 +196,28 @@ Owner UX stories:
 - As a owner I would like to be able to remove reviews that aren't related to the product.
 > During testing I found out that every user was able to delete other reviews. This should only be reserved for website owners. 
 
+First time User UX stories:
+
+- As a first time user I would like to instantly see what the website is about.
+> Home page shows a large picture from Iron Man and Batman stating the website is about comic books, hence the name Comix.
+- As a first time user I would like to easily navigate through all available products.
+> A user is able to easily select one of the available categories or use the search bar to find their item. Or make use of the button to explore the collection.
+- As a first time user I would like to have a clear description about each product.
+> When a user is interested in a product they can click on the image to be taken to a page that has a small description of the contents of the book before adding it to the bag.
+- As a first time user I would like to be able to sort products based on rating, price etc.
+> All these options are given at all times to users on whichever page the users finds themselves when navigating through products.
+- As a first time user I would like to search the site for a specific product.
+> When using the search bar it searches to match items with whatever the user has entered giving a user items that matched what they entered.
+- As a first time user I would like to have an incentive to register to the app.
+> As of now incentive to create an account is based on having the convenience on having saved delivery information and being able to leave reviews on products.
+- As a first time user I would like to see what products are on offer or on a special sale.
+> There is a seperate section for users to see what items are on offer. As of now this is empty.
+- As a first time user I would like to easily see the total of my shopping bag.
+> The total in the bag gets updated with each item the user adds to the bag.
+- As a first time user I would like to know about what the company is about.
+> When landing on the homepage a user is clearly able to see what this website is about based on the hero image and the name chosen for the website.
+
+
 ### Validator Testing 
 
 Ran out of time as off now.
