@@ -179,7 +179,7 @@ Testing has been done in the following ways:
 
 2. UX Testing.
 
-During each stage of development I would check if my application still holds up with the user stories stated in the UX section of the readme.
+During each stage of development I would check if my application still holds up with the user stories stated in the UX section of the readme and to check if development is in line with user stories created.
 
 Owner UX stories:
 
@@ -217,10 +217,22 @@ First time User UX stories:
 - As a first time user I would like to know about what the company is about.
 > When landing on the homepage a user is clearly able to see what this website is about based on the hero image and the name chosen for the website.
 
+Returning/ Registered user:
+
+- As a registered user I would like to easily register, login, logout.
+> The user can login intuitively and gets feedback when performing actions.
+- As a registered user I would like to recieve an email confirmation after registering.
+> A confirmation email gets send to authenticate the account.
+- As a registered user I would like to have a personal user profile that holds my order history and saves my payment information.
+> When a user is logged in on checkout they get the option to save their shipping details, or a user can do this manually by entering contact information in their profile page.
+- As a registered user I would like to be able to recover my password.
+> Not implemented yet.
+- As a registered user I would like to feel registering to the website made sense.
+> As of right now the only upside is saving the hassle of entering shipping details in future updates this will be improved upon by sending mails for special offers, new arrivals etc.
 
 ### Validator Testing 
 
-Ran out of time as off now.
+
 
 ### Unfixed Bugs
 
