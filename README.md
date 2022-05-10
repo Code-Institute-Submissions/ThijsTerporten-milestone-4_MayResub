@@ -98,6 +98,10 @@ The website is layed out in the following way:
 2. The user is able to decide whether he/she wants to login/signup or start shopping immediatly.
 > Logging in takes user to all products page, my profile becomes available. A user can see their order history here. Writing reviews on products becomes available as well.
 3. When a user is adding products to their cart a total is displayed on the bottom of the shopping cart icon.
+4. The navbar has a search option followed by login and bag.
+5. The bar underneath contains the navigation for the user to navigate towards different categories of books.
+6. The hero image contains a call to action to check out the collection.
+7. In the footer are several blank urls for socials and a contact button. This takes the user towards the contact page.
 
 #### Checkout layout
 
@@ -132,7 +136,7 @@ All orders can be deleted as well by admins in the panel by typing /
 ### Existing Features
 
 - Full CRUD functionality for users
-> Reviews can be added, deleted edited.
+> Reviews can be added, deleted and edited.
 > Items can be added to cart deleted and cart can be updated.
 
 - The admin can use full CRUD on products.
