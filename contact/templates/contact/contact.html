@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container mt-s-2 header-container">
+    <div class="row">
+        <div class="col text-center">
+            <h2 class="logo-font m-4 text-white">Contact Us</h2>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col text-center mb-4">
+            <h2 class="text-white">Please send us a message</h2>
+        </div>
+    </div>
+
+    <div class="row text-wjite">
+        <div class="col-12 col-lg-6 offset-lg-3">
+            <form method="POST" action="{% url 'contact' %}" class="form mb-2">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <div class="text-right mt-5 mb-5 text-center">
+                    <a class="btn text-white btn-outline btn-contact" href="{% url 'home' %}">Cancel</a>
+                    <button class="btn text-white btn-outline btn-contact" type="submit">Contact</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
