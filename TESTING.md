@@ -40,3 +40,18 @@ The major warning given was that the javascript at the bottom of the page doesnt
 ## PROFILE
 
 ![PROFILE](readme/images/profilehtml.jpg)
+
+However it is worth noting when checking all HTML pages one by one as they are coded. It gives off a lot of warnings and errors. This is due to the templating language used from django.
+
+
+## CSS 
+
+The base.css file was run through the authenticator giving no errors but a couple of warnings involving use of webkit and using background colors and border colors which are them same. However after checking the elements these were on this
+doesn't cause a major issue in my opinion.
+
+![CSSCHECK](readme/images/csscheck.jpg)
+
+## JavaScript
+
+### STRIPE
+![JSHINT](readme/images/jshintstripe.jpg)
