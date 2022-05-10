@@ -243,7 +243,9 @@ All code has been run through official validators:
 - [Pep8 Online](http://pep8online.com/)
 - [JSHint](https://jshint.com/)
 
-Running the live website through these validators returns no major errors.
+Running the live website through these validators returns no major errors however there were several warnings given by the html validator.
+
+Full detail can be found in [TESTING.md](TESTING.md)
 
 ### Unfixed Bugs
 
