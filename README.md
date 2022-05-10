@@ -232,14 +232,21 @@ Returning/ Registered user:
 
 ### Validator Testing 
 
+All code has been run through official validators:
 
+- [W3C Markup Validation Service](https://validator.w3.org/#validate_by_uri)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Pep8 Online](http://pep8online.com/)
+- [JSHint](https://jshint.com/)
+
+Running the live website through these validators returns no major errors.
 
 ### Unfixed Bugs
 
 
 ## Deployment
 
-The site is hoseted on [Heroku](https://www.heroku.com/home).
+The site is hosted on [Heroku](https://www.heroku.com/home).
 
 Deployment of the site was achieved by following the steps below:
 
