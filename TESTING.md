@@ -83,3 +83,24 @@ In future development when working on this project I would like to further expan
 
 
 ## RESPONSIVENESS TESTING
+
+During development I would always check making use of chrome dev tools wether I could break the UI of my site as far as breakpoints go and everything is positioned where I would want it.
+At several moments I found I could break my website. These were all easily fixed though by playing around with margins and padding.
+
+The following options where selected:
+
+- Iphone SE as the smallest device.
+- Iphone 12 Pro as a larger phone.
+- Ipad Air.
+- My 15.6 inch laptop screen.
+- My 27 inch monitor.
+
+I ran a lighthouse audit as well for both mobile and desktop with the following results:
+
+### DESKTOP
+
+![DESKTOPLIGHTHOUSE](readme/images/lighthousedesktop.jpg)
+
+### MOBILE
+
+![MOBILELIGHTHOUSE](readme/images/mobilelighthouse.jpg)
