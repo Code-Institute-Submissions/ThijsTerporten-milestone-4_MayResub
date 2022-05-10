@@ -53,5 +53,33 @@ doesn't cause a major issue in my opinion.
 
 ## JavaScript
 
+All JavaScript code has been run through JSHint.
+This resulted in no errors given only warnings because of the use of jQuery.
+All other warnings such as missing semi colons have been fixed.
+
 ### STRIPE
+
 ![JSHINT](readme/images/jshintstripe.jpg)
+
+### QUANTITY INPUT SCRIPT
+
+![QUANTITYINPUTSCRIPT](readme/images/qntyinputcheck.jpg)
+
+### SEARCH BAR
+
+![SEARCHBAR](readme/images/searchbarjshint.jpg)
+
+## PEP8
+
+All major python files were run through Pep8 to see if any major errors were found.
+I did my best to remove all errors and warnings that were given in the terminal after contacting tutor support from code institute they told me I could add this comment  # noqa: E501 at the end of a line that is to long
+to remove the warning. 
+
+Another commen warning that the terminal gives me is that a class has no ObjectsMember and several other pylint errors. These can however all be ignored after googling each of them and searching on slack.
+
+## AUTOMATED TESTING
+
+In future development when working on this project I would like to further expand upon testing by creating custom test cases for each Django App created.
+
+
+## RESPONSIVENESS TESTING
