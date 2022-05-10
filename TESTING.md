@@ -104,3 +104,5 @@ I ran a lighthouse audit as well for both mobile and desktop with the following 
 ### MOBILE
 
 ![MOBILELIGHTHOUSE](readme/images/mobilelighthouse.jpg)
+
+These weren't 'bad' but give some usefull insights on what to improve upon. Mainly SEO would be one to look at since as an e-commerce store you want to rank high in searches.
