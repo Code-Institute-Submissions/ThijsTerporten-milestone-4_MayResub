@@ -171,7 +171,18 @@ In future releases:
 - [Bootstrap](https://getbootstrap.com/) - used for responsive grid framework, navigation and buttons.
 - [Stripe](https://stripe.com/gb) - ecommerce payment system.
 
-### TOOLS
+### LIBRARIES and other sources:
+
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) was used for all forms on the site.
+- [Django Allauth](https://django-allauth.readthedocs.io/en/latest/) was used for user authentication on the site.
+- [Stripe](https://stripe.com/) was used to handle payments on the site.
+- [Bootstrap4](https://getbootstrap.com/) was used to aid reponsive design.
+- [Amazon Web Services](https://aws.amazon.com/) S3 was used to store all static CSS and Javascript files, and images.
+- [SQLite3](https://www.sqlite.org/index.html) is the database that was used in production.
+- [PostgreSQL](https://www.postgresql.org/) is the database used by the deployed site.
+- [GitPod](https://gitpod.io/) was used as an IDE for this project. 
+- [GitHub](https://github.com/) is where the Milestone Project 04's repository is stored. Regular commits were made throughout, and code was pushed to GitHub from GitPod.
+- [Font Awesome](https://fontawesome.com/) was used for icons on the site.
 
 ## Testing 
 
@@ -249,6 +260,7 @@ Full detail can be found in [TESTING.md](TESTING.md)
 
 ### Unfixed Bugs
 
+The footer remains the bane of my existence since starting this since I can never get it right the way I want it to look. In future version I would focus on making it look good.
 
 ## Deployment
 
