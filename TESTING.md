@@ -108,10 +108,14 @@ I ran a lighthouse audit as well for both mobile and desktop with the following 
 
 These weren't 'bad' but give some usefull insights on what to improve upon. Mainly SEO would be one to look at since as an e-commerce store you want to rank high in searches.
 
-
 ### Contact testing
 
 To check wether everything works as intended during development I used a print statement to return a text to the terminal giving the message send by the user and set
 the BACKEND_MAIL to my email address and send myself a test mail from the deployed website.
 
 ![CONTACTTEST](readme/images/contacttest.jpg)
+
+### STRIPE
+
+For all tests using stripe I made use of the webhooks that are integrated in the payment platform. Whenever one of the webhooks fails I get send an email with the exact webhook that failed and why.
+I implemented this by progressing through the Boutique Ado project from Code Institute and by making use of the python documentation to understand it further. [StripeDocs](https://stripe.com/docs/webhooks)
