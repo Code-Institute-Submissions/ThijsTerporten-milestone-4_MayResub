@@ -149,7 +149,14 @@ It also contains a section of their order history.
 
 ### Database Choice:
 
+- SQLight was used during development, as it comes installed with Django
+- PostgreSQL was used for the deployed site as it is an optional addon by Heroku
+
 ### Data modelling:
+
+At the start of development I used this database model as a baseline to create my models around.
+
+![DATABASEMODEL](readme/images/database model.jpg)
 
 ## Features 
 
