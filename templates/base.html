@@ -33,7 +33,8 @@
   <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/cdaa637456.js" crossorigin="anonymous"></script>
   <!-- Jquery js -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
@@ -97,7 +98,8 @@
           </li>
           <!-- Shopping bag -->
           <li class="list-inline-item">
-            <a href="{% url 'view_bag' %}" class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link">
+            <a href="{% url 'view_bag' %}"
+              class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link">
               <div class="text-center">
                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                 <p class="my-0">
@@ -129,19 +131,19 @@
 
   {% if messages %}
   <div class="message-container text-black">
-      {% for message in messages %}
-        {% with message.level as level %}
-          {% if level == 40 %}
-              {% include 'includes/toasts/toast_error.html' %}
-          {% elif level == 30 %}     
-              {% include 'includes/toasts/toast_warning.html' %}
-          {% elif level == 25 %}
-              {% include 'includes/toasts/toast_success.html' %}
-          {% else %}
-              {% include 'includes/toasts/toast_info.html' %}
-          {% endif %}
-        {% endwith %}
-      {% endfor %}
+    {% for message in messages %}
+    {% with message.level as level %}
+    {% if level == 40 %}
+    {% include 'includes/toasts/toast_error.html' %}
+    {% elif level == 30 %}
+    {% include 'includes/toasts/toast_warning.html' %}
+    {% elif level == 25 %}
+    {% include 'includes/toasts/toast_success.html' %}
+    {% else %}
+    {% include 'includes/toasts/toast_info.html' %}
+    {% endif %}
+    {% endwith %}
+    {% endfor %}
   </div>
   {% endif %}
 
@@ -154,71 +156,63 @@
   <!-- footer with icons -->
   <footer class="footer mt-auto glass">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-3">
-          <p class="text-white text-center">Find us on our social channels</p>
-          <a href="#" class="d-flex justify-content-center footer-link">
-            <i class="fa-brands fa-facebook fa-lg text-white"></i>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="#" class="">
-            <i class="fa-brands fa-instagram text-white"></i>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="#" class="">
-            <i class="fa-brands fa-twitter text-white"></i>
-          </a>
-        </div>
-        <div class="col-3">
-          <p class="text-white text-center">Contact us!</p>
-          <a href="{% url 'contact' %}" class="d-flex justify-content-center">
-            <i class="fa-solid fa-envelope text-white"></i>
-          </a>
-        </div>
-
+      <div class="row text-center">
+        <p class="text-white">Find us on our social channels</p>
+      </div>
+      <div class="row d-flex justify-content-around">
+        <a href="#" class="">
+          <i class="fa-brands fa-facebook text-white footer-icon"></i>
+        </a>
+        <a href="#" class="">
+          <i class="fa-brands fa-instagram footer-icon text-white"></i>
+        </a>
+        <a href="#" class="">
+          <i class="fa-brands fa-twitter footer-icon text-white"></i>
+        </a>
+        <a href="{% url 'contact' %}" class="">
+          <i class="fas fa-envelope text-white footer-icon"></i>
+        </a>
       </div>
     </div>
   </footer>
   <!-- Button trigger modal -->
 
-<!-- Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-black">User Profile</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="text-center">
-          <div><i class="fas fa-user fa-lg"></i></div>
-          <p class="my-0 text-black">My Account:</p>
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-black">User Profile</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-      <div class="border-0" aria-labelledby="user-options">
-        {% if request.user.is_authenticated %}
-        {% if request.user.is_superuser %}
-        <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-        {% endif %}
-        <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-        <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-        {% else %}
-        <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-        <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-        {% endif %}
-      </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <div class="modal-body">
+          <div class="text-center">
+            <div><i class="fas fa-user fa-lg"></i></div>
+            <p class="my-0 text-black">My Account:</p>
+          </div>
+          <div class="border-0" aria-labelledby="user-options">
+            {% if request.user.is_authenticated %}
+            {% if request.user.is_superuser %}
+            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+            {% endif %}
+            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+            {% else %}
+            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+            {% endif %}
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
   {% block postloadjs %}
-  <script type="text/javascript">
+  <script>
     $('.toast').toast('show');
   </script>
   {% endblock %}
