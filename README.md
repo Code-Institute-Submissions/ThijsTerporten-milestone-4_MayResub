@@ -21,7 +21,27 @@ A live version of the website can be found [here](https://thijsterporten-milesto
   - [First Time User](#first-time-user)
   - [Registered User](#registered-user)
 - [Design](#design)
+  - [Wireframes](#wireframes)
   - [Color Scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Layout](#layout)
+- [Features](#features)
+  - [ExistingFeatures](#existing-features)
+  - [FutureFeatures](#features-left-to-implement)
+- [TechnologiesUsed](#technology-used)
+  - [Languages](#languages-and-frameworks)
+  - [Libraries](#libraries-and-other-sources)
+- [Testing](#testing)
+  - [ValidatorTesting](#validator-testing)\
+  - [Bugs](#bugs)
+  - [UnfixedBugs](#unfixed-bugs)
+- [Deployment](#deployment)
+  - [AWS](#aws)
+  - [LocalHosting](#local-hosting)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
+-[Acknowledgments](#acknowledgements)
 
 
 ## User Experience(UX)
@@ -257,6 +277,9 @@ All code has been run through official validators:
 Running the live website through these validators returns no major errors however there were several warnings given by the html validator.
 
 Full detail can be found in [TESTING.md](TESTING.md)
+
+### BUGS
+
 
 ### Unfixed Bugs
 
