@@ -42,6 +42,7 @@ The major warning given was that the javascript at the bottom of the page doesnt
 ![PROFILE](readme/images/profilehtml.jpg)
 
 However it is worth noting when checking all HTML pages one by one as they are coded. It gives off a lot of warnings and errors. This is due to the templating language used from django.
+The major errors it gives are that all urls have a invalid syntax and that the html doctype is missing from the top of the page.
 
 
 ## CSS 
@@ -106,3 +107,11 @@ I ran a lighthouse audit as well for both mobile and desktop with the following 
 ![MOBILELIGHTHOUSE](readme/images/mobilelighthouse.jpg)
 
 These weren't 'bad' but give some usefull insights on what to improve upon. Mainly SEO would be one to look at since as an e-commerce store you want to rank high in searches.
+
+
+### Contact testing
+
+To check wether everything works as intended during development I used a print statement to return a text to the terminal giving the message send by the user and set
+the BACKEND_MAIL to my email address and send myself a test mail from the deployed website.
+
+![CONTACTTEST](readme/images/contacttest.jpg)
