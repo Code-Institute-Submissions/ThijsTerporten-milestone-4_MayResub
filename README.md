@@ -156,7 +156,7 @@ It also contains a section of their order history.
 
 At the start of development I used this database model as a baseline to create my models around.
 
-![DATABASEMODEL](readme/images/database model.jpg)
+![Datamodel](readme/images/database-model.jpg)
 
 ## Features 
 
