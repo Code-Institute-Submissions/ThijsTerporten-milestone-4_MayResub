@@ -32,7 +32,7 @@ A live version of the website can be found [here](https://thijsterporten-milesto
   - [Languages](#languages-and-frameworks)
   - [Libraries](#libraries-and-other-sources)
 - [Testing](#testing)
-  - [ValidatorTesting](#validator-testing)\
+  - [ValidatorTesting](#validator-testing)
   - [Bugs](#bugs)
   - [UnfixedBugs](#unfixed-bugs)
 - [Deployment](#deployment)
@@ -41,7 +41,7 @@ A live version of the website can be found [here](https://thijsterporten-milesto
 - [Credits](#credits)
   - [Content](#content)
   - [Media](#media)
--[Acknowledgments](#acknowledgements)
+- [Acknowledgments](#acknowledgements)
 
 
 ## User Experience(UX)
@@ -456,13 +456,13 @@ If you wish to clone a copy of my project, feel free. You will need to:
 - The app can now be run locally by typing python manage.py in the terminal and will be available in your browser using the address `http://127.0.0.1:8000`.
 
 
-
 ## Credits 
 
 - Detailed deployment section was taken from [this](https://github.com/iainm342/milestone-4/blob/master/README.md) repository.
 - Reviews are based upon [this](https://github.com/iainm342/milestone-4) Repo
-- All images used belong to their respective parties. As of now this is Marvel and DC.
+- All images used belong to their respective parties. As of now this is Marvel and DC however many more can be added.
 - Contact app is based on [this](https://github.com/atiqbeenrahim/milestone-project-04/tree/main/contact) Repo
+- Code Institute for introducing me to the ways of web development, and the entire project was based upon the walkthrough project Boutique Ado.
 
 
 ### Content 
@@ -477,8 +477,8 @@ If you wish to clone a copy of my project, feel free. You will need to:
 - [JSHint](https://https://jshint.com/) - used to test my JS to ensure there were no errors.
 - [PEP8 Online](http://pep8online.com/) - used to check my Python was PEP8 compliant.
 - [Chrome Developer](https://developers.google.com/web/tools/chrome-devtools) - used to test responsiveness of site throughout the developmnent process and also performance using Lighthouse.
-- [Free Formatter](https://freeformatter.com/html-formatter.html#ad-output) - html formatter to help keep things tidy!
 - [AWS](http://aws.amazon.com/) - used the S3 and IAM modules for storage and user access.
+- [Heroku](http://heroku.com) - used for deployment
 
 
 ### Media
@@ -487,6 +487,6 @@ All images were taken from Amazon by typing in the comic or book name and saving
 
 # Acknowledgements
 
+
 Thank you to the following people:
 - My mentor Antonija Simic for her time and guidance in helping me in this project.
-
