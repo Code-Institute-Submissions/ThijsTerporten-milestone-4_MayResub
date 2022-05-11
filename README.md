@@ -460,6 +460,7 @@ If you wish to clone a copy of my project, feel free. You will need to:
 - Detailed deployment section was taken from [this](https://github.com/iainm342/milestone-4/blob/master/README.md) repository.
 - Reviews are based upon [this](https://github.com/iainm342/milestone-4) Repo
 - All images used belong to their respective parties. As of now this is Marvel and DC.
+- Contact app is based on [this](https://github.com/atiqbeenrahim/milestone-project-04/tree/main/contact) Repo
 
 
 ### Content 
