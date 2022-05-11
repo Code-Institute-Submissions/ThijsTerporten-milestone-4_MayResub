@@ -186,7 +186,8 @@ In future releases:
 - I would like to add a blog about new books or discussing a certain book.
 - Clean up glassmorphism styling. Even though a cool idea it creates bugs.
 - Implement TestCases.
-- A more interactive homepage showcasing blogposts, new comics etc. 
+- A more interactive homepage showcasing blogposts, new comics etc.
+- Further expand upon the rating system and implement a liking system for each product. 
 
 ## **TECHNOLOGY USED**
 
@@ -224,6 +225,7 @@ Testing has been done in the following ways:
 
 - While developing each individual application I would test everything would work as intended.
 - Chrome dev tools was used to check wether the site behaves in a responsive manner.
+- Check in with user stories to see wether they match with what I am developing.
 
 2. UX Testing.
 
@@ -240,9 +242,9 @@ Owner UX stories:
 - As a owner of the application I have to be able to manage all my products.
 > Owner of the website has full CRUD functionallity on the entire website.
 - As a owner of the application I would like to be able to recieve customer feedback.
-> As of right now user feedback in the form of a contact form is not implemented yet.
+> As of right now user feedback in the form of a contact form is not implemented yet. This has been implemented by using navbar contact button or footer on large screens, On mobile online in navbar.
 - As a owner I would like to be able to remove reviews that aren't related to the product.
-> During testing I found out that every user was able to delete other reviews. This should only be reserved for website owners. 
+> During testing I found out that every user was able to delete other reviews. This should only be reserved for website owners. This has since been fixed.
 
 First time User UX stories:
 
