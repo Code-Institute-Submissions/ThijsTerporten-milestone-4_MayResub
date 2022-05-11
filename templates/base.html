@@ -54,7 +54,7 @@
       <!-- Logo link -->
       <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
         <a href="{% url 'home' %}" class="nav-link main-logo-link">
-          <h2 class="logo-font text-black my-0 text-uppercase">
+          <h2 class="logo-font text-white my-0 text-uppercase">
             <strong>Comix</strong>
           </h2>
         </a>
@@ -78,6 +78,14 @@
       <!-- User profile section -->
       <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
         <ul class="list-inline list-unstyled text-center text-lg-right my-o">
+          <li class="list-inline-item">
+            <a href="{% url 'contact' %}" class="text-black nav-link">
+              <div class="text-center">
+                <div><i class="fas fa-envelope fa-lg"></i></div>
+                <p class="my-0">Contact Us!</p>
+              </div>
+            </a>
+          </li>
           <li class="list-inline-item">
             <a href="#" class="text-black nav-link" id="user-options" data-toggle="modal" aria-haspopup="true"
               aria-expanded="false" data-target="#loginModal">
