@@ -145,6 +145,12 @@ It clearly shows the users personal information and gives them the option to edi
 
 It also contains a section of their order history.
 
+## INFORMATION ARCHITECTURE
+
+### Database Choice:
+
+### Data modelling:
+
 ## Features 
 
 #### Admin features
@@ -280,10 +286,23 @@ Full detail can be found in [TESTING.md](TESTING.md)
 
 ### BUGS
 
+During development I came across a couple of annoying UI bugs mainly and a small typo that broke the entire checkout application.
+
+#### Underindented block of code
+
+While testing all checkout functionality I realised that somehow when adding multiple books to an order for example 2 you would be charged for these by stripe which is correct, however when looking at the order
+confirmation I realised that you would only recieve one item. After banging my head against a wall for hours I contacted tutor support, after looking at the code for a good 45 minutes we found out that
+I had underindented the code that would add x number of books to an order. A quick tab later and everything was fixed.
+
+#### Profile dropdown not being clickable
+
+While testing I noticed that the profile dropdown menu would hide behind the glassmorphism styling I had chosen to use. Somehow the z-index wouldn't change for this specific element.
+That made me make the decision to add a modal to the profile app so that it would be centered in the middle of the page to prevent all these issues all together.
+
 
 ### Unfixed Bugs
 
-The footer remains the bane of my existence since starting this since I can never get it right the way I want it to look. In future version I would focus on making it look good.
+The footer remains the bane of my existence since starting this program since I can never get it right the way I want it to look. In future versions I would focus on making it look good.
 
 ## Deployment
 
